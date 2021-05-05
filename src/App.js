@@ -1,28 +1,38 @@
 import logo from './logo.svg';
-import './App.css';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import './App.scss';
+import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import About from './pages/about';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <nav>
-          <Link to="/"><img src="" />
-            <img src=""/>
-            <h1>Teegarden Tutoring</h1>
-          </Link>
-          <ul>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/services">Services</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+        <header>
+            <Link to="/">
+              <img src=""/>
+              <h1>Teegarden Tutoring</h1>
+            </Link>
+          <nav>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/contact">Contact</Link>
+          </nav>
+        </header>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/services">
+            services
+          </Route>
+          <Route path="/contact">
+            contact
+          </Route>
+          <Route path="/">
+            home
+          </Route>
+        </Switch>
       </Router>
     </div>
   );

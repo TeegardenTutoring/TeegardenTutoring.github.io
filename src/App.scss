@@ -1,0 +1,62 @@
+
+.App {
+  padding: 30px 60px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 0px 10px;
+
+  > a {
+    display: flex;
+  }
+}
+
+h1 {
+  font-size: 28px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  > a {
+    margin: 10px;
+    font-size: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+figure {
+  border: 2px solid black;
+  width: 200px;
+  padding: 20px;
+
+  figcaption {
+    text-align: center;
+  }
+
+  &.aside-right {
+    float: right;
+  }
+
+  &.aside-left {
+    float: left;
+  }
+}
+
+.flex {
+  display: flex;
+}
