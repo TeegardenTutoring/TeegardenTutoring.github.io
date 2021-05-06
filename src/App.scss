@@ -1,4 +1,5 @@
 
+
 .App {
   padding: 30px 60px;
 }
@@ -48,6 +49,11 @@ figure {
     text-align: center;
   }
 
+  .round-frame {
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
   &.aside-right {
     float: right;
   }
@@ -59,4 +65,15 @@ figure {
 
 .flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.testimonial {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section {
+  margin: 10px 0px;
 }

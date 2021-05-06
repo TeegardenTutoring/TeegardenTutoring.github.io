@@ -4,7 +4,7 @@ import ShinyButton from '../components/shiny-button';
 function About(props) {
 
     return (
-        <section>
+        <main>
             <figure className="aside-right">
                 <img src="https://placekitten.com/g/200/200" alt="this is a placekitten" />
                 <figcaption>This time the picture is OVER HERE and it's FUNKY.</figcaption>
@@ -43,7 +43,7 @@ function About(props) {
             </p>
             <p>Want to get to know me? Try the shiny button!</p>
             <ShinyButton />
-        </section>
+        </main>
     )
 }
 
