@@ -1,12 +1,12 @@
 import React from 'react';
 import ShinyButton from '../components/shiny-button';
 
-const example = {
-    icon: "✎",
-    name: "service",
-    blurb: "Lorem ipsum",
-    price: 100
-};
+// const example = {
+//     icon: "✎",
+//     name: "service",
+//     blurb: "Lorem ipsum",
+//     price: 100
+// };
 
 const SERVICES_OFFERED = [
     {
