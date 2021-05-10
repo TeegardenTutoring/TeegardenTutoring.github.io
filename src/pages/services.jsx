@@ -37,7 +37,7 @@ const SERVICES_OFFERED = [
         icon: "✎",
         name: "Competition Coaching",
         blurb: "Oh please? It's my very favorite thing. Please hire me for this. Please please please.",
-        price: 100
+        price: 180
     }
 ]
 

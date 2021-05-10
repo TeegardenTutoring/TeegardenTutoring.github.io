@@ -40,8 +40,8 @@ function App() {
         <footer>
           <div>Teegarden Tutoring — powered by <a href="ashen.works">Ash Todd</a> © 2021</div>
           <div className="footer-contact">
-            <a href="tel:512-487-3476">✆ (512) 487-3476</a>
-            <a href="mailto:sapientia@utexas.edu">✉︎ sapientia@utexas.edu</a>
+            <a href="tel:555-555-5555">✆ (555) 555-5555</a>
+            <a href="mailto:teegarden.math@gmail.com">✉︎ teegarden.math@gmail.com</a>
           </div>
         </footer>
       </Router>

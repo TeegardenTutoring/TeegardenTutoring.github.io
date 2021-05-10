@@ -174,12 +174,22 @@ footer {
 
 .service {
   position: relative;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
+
+  border: 2px solid $blue-li-50;
+  border-radius: .5em;
+
+  padding: .5em;
 
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .price {
+    color: $blue;
+    font-weight: bold;
   }
 
   .icon-window {
@@ -188,11 +198,6 @@ footer {
 
   h3 {
     margin: 0px;
-  }
-
-  .shiny-button {
-    position: absolute;
-    right: 0px;
   }
 
 }
