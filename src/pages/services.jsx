@@ -60,7 +60,7 @@ function Services(props) {
                     </div>
                     <div>
                         <p>{service.blurb}</p>
-                        <ShinyButton />
+                        <ShinyButton subject={`[New Student] ${service.name} Intake`}/>
                     </div>
                 </section>
             )}

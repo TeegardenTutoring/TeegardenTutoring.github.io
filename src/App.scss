@@ -164,11 +164,17 @@ footer {
 }
 
 .shiny-button {
+  display: inline-block;
   background-color: $blue;
   border: none;
   padding: .5em;
   color: white;
   border-radius: .25em;
+  font-weight: 500;
+  font-size: 10pt;
+}
+
+.shiny-button:hover {
   font-weight: 500;
 }
 
@@ -204,4 +210,10 @@ footer {
 
 main {
   margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 2em;
 }

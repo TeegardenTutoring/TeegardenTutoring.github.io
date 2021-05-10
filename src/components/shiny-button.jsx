@@ -1,8 +1,19 @@
 import React from 'react';
 
-function ShinyButton() {
+const DEFAULT_MAIL = {
+    subject: "Hi please tutor my child",
+    body: ""
+}
+
+function ShinyButton(props) {
+
+    const subject = props.subject || DEFAULT_MAIL.subject;
+    const body = props.body || DEFAULT_MAIL.body;
+
+    const href = `mailto:teegarden.math@gmail.com?&subject=${subject}&body=${body}`;
+
     return (
-        <button className="shiny-button">▶ SHINY BUTTON</button>
+        <a href={href} className="shiny-button">▶ SHINY BUTTON</a>
     )
 };
 
