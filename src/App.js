@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import '../node_modules/slick-carousel/slick/slick-theme.css'
 import '../node_modules/slick-carousel/slick/slick.css'
@@ -6,6 +5,7 @@ import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import About from './pages/about';
 import Home from './pages/home';
+import Services from './pages/services';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <About />
           </Route>
           <Route path="/services">
-            services
+            <Services />
           </Route>
           <Route path="/contact">
             contact

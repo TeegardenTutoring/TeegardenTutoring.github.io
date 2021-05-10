@@ -41,7 +41,7 @@ function Quizlet() {
             <div className="quizlet">
                 <nav className="grade-level-menu">
                     {problems.map((problem, idx) => {
-                        return <button onClick={() => { setProblemIndex(idx)}}>{problem.fancyName}</button>
+                        return <button onClick={() => { setProblemIndex(idx)}} key={`problem-${idx}`}>{problem.fancyName}</button>
                     })}
                 </nav>
                 <div className="problem">
@@ -49,7 +49,7 @@ function Quizlet() {
                     <div className="answers">
                     { problem.answers.map((answer, idx) => {
                         return (
-                            <button onClick={() => { inputAnswer(idx) }} className="answer-button">{answer}</button>
+                            <button onClick={() => { inputAnswer(idx) }} className="answer-button" key={`answer-${idx}`}>{answer}</button>
                         )
                     })}
                     </div>
