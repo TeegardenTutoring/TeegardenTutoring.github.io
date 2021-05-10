@@ -1,18 +1,28 @@
 
 
 .App {
-  padding: 30px 60px;
+  margin: 30px 60px;
 }
+
+$blue: #1c75bc;
+$green: #87c154;
+
+$blue-li-20: #4991c9;
+$blue-li-50: #8ebade;
+$green-li-50: #c3e0aa;
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid black;
   padding: 0px 10px;
 
   > a {
     display: flex;
+  }
+
+  img {
+    height: 2.5em;
   }
 }
 
@@ -41,24 +51,35 @@ a:hover {
 }
 
 figure {
-  border: 2px solid black;
+  // border: 2px solid black;
   width: 200px;
   padding: 20px;
 
+  border-radius: 10px;
+
+  background-color: $blue-li-50;
+
   figcaption {
+    margin-top: 1em;
     text-align: center;
   }
 
   .round-frame {
     overflow: hidden;
+    height: 200px;
     border-radius: 100px;
+    img {
+      margin: 0px;
+    }
   }
 
   &.aside-right {
+    margin-inline-end: 0px;
     float: right;
   }
 
   &.aside-left {
+    margin-inline-start: 0px;
     float: left;
   }
 }
@@ -76,4 +97,78 @@ figure {
 
 section {
   margin: 10px 0px;
+}
+
+.carousel {
+  margin-bottom: 3em;
+}
+
+.quizlet {
+  padding: 1em;
+  background-color: lightgray;
+
+  .grade-level-menu {
+    justify-content: flex-start;
+    margin-bottom: 1em;
+
+    button {
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: gray;
+      margin-right: 3em;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  .problem {
+    margin: .5em;
+  }
+
+  .answers {
+    margin-top: 1em;
+
+
+    button {
+      margin-top: .5em;
+      width: 100%;
+      height: 3em;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+
+  // position: absolute;
+  // bottom: 0px;
+  // left: 0px;
+  // padding: 30px 60px;
+  // box-sizing: border-box;
+
+  width: 100%;
+
+  .footer-contact a {
+    margin-left: 1em;
+  }
+};
+
+.splash-text {
+  font-size: 20px;
+}
+
+.shiny-button {
+  background-color: $blue;
+  border: none;
+  padding: .5em;
+  color: white;
+  border-radius: .25em;
+  font-weight: 500;
+  float: right;
 }

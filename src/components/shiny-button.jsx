@@ -2,7 +2,7 @@ import React from 'react';
 
 function ShinyButton() {
     return (
-        <button>▶ SHINY BUTTON</button>
+        <button className="shiny-button">▶ SHINY BUTTON</button>
     )
 };
 

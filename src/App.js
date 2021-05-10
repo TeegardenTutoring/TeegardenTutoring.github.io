@@ -13,8 +13,9 @@ function App() {
       <Router>
         <header>
             <Link to="/">
-              <img src=""/>
-              <h1>Teegarden Tutoring</h1>
+              <img className="header-logo" src="/logo-512.png" alt="Teegarden Tutoring logo"/>
+              <img className="header-logo-text" src="/logo-text.png" alt="Teegarden Tutoring"/>
+              {/* <h1>Teegarden Tutoring</h1> */}
             </Link>
           <nav>
           <Link to="/about">About</Link>
@@ -36,6 +37,13 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <footer>
+          <div>Teegarden Tutoring — powered by <a href="ashen.works">Ash Todd</a> © 2021</div>
+          <div className="footer-contact">
+            <a href="tel:512-487-3476">✆ (512) 487-3476</a>
+            <a href="mailto:sapientia@utexas.edu">✉︎ sapientia@utexas.edu</a>
+          </div>
+        </footer>
       </Router>
     </div>
   );
