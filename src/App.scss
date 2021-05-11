@@ -104,6 +104,9 @@ section {
 }
 
 .quizlet {
+
+  max-width: 800px;
+  margin: auto;
   padding: 1em;
   background-color: lightgray;
 
@@ -180,7 +183,9 @@ footer {
 
 .service {
   position: relative;
+  margin: auto;
   margin-bottom: 1em;
+  max-width: 800px;
 
   border: 2px solid $blue-li-50;
   border-radius: .5em;
