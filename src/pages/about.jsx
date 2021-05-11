@@ -3,7 +3,7 @@ import ShinyButton from '../components/shiny-button';
 
 function About(props) {
 
-    return (
+    return ( 
         <main>
             <figure className="aside-right">
                 <img src="https://placekitten.com/g/200/200" alt="this is a placekitten" />
