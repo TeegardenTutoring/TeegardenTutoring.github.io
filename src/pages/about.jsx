@@ -16,7 +16,7 @@ function About(props) {
             </p>
             <ul>
                 <li>
-                    Here are some BULLET POINTS.
+                    Here are some BULLET POINTS!
                 </li>
                 <li>
                     They're COOL THINGS ABOUT ME.
