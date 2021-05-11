@@ -2,7 +2,7 @@ import React from 'react';
 import ShinyButton from '../components/shiny-button';
 
 const infoStyle = {
-    "margin-left": "3em",
+    marginLeft: "3em",
     fontSize: "16pt"
 }
 
