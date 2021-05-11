@@ -41,7 +41,7 @@ function App() {
         <footer>
           <div>Teegarden Tutoring — powered by <a href="ashen.works">Ash Todd</a> © 2021</div>
           <div className="footer-contact">
-            <a href="tel:555-555-5555">✆ (555) 555-5555</a>
+            <a href="tel:408-755-5141">✆ (408) 755-5141</a>
             <a href="mailto:teegarden.math@gmail.com">✉︎ teegarden.math@gmail.com</a>
           </div>
         </footer>

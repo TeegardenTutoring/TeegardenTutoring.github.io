@@ -13,7 +13,7 @@ function Contact(props) {
             <img src="https://placekitten.com/g/200/200" alt="this is a placekitten" />
             <div style={infoStyle}>
                 <p>✉︎ teegarden.math@gmail.com</p>
-                <p>✆ (555) 555-5555</p>
+                <p>✆ (408) 755-5141</p>
                 <ShinyButton />
             </div>
         </main>
