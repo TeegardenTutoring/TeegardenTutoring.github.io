@@ -14,19 +14,13 @@ function Carousel() {
     return (
         <Slider {...settings}>
             <div className="testimonial">
-                "There was only one testimonial in the mockup!" — Ash Todd
+                "Alex left your session feeling very positive and said it was helpful.  He thought you were very nice :) ... Grateful to have you on the team to support Alex." — JoEllen
             </div>
             <div className="testimonial">
-                "Charlie is cool and stuff!" — Some Dude
+                "[Aria] was very enthusiastic after her session today and proud of herself. She showed me how she worked through one of the problems below and was very excited about learning today as well." — Arpita
             </div>
             <div className="testimonial">
-                "They play Minecraft and I am astounded!" — Incredulous Child
-            </div>
-            <div className="testimonial">
-                "Charlie's face is cute and I want to kiss it!" — Ash Todd
-            </div>
-            <div className="testimonial">
-                "oh wow it's really hard to come up with filler content" — me
+                "We were so pleased with [Student]'s performance on his most recent math test!"
             </div>
         </Slider>
     )
