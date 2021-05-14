@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 
 const problems = [
     {
-        fancyName: "Elementary",
-        question: "How many roads must a man walk down?",
-        answers: ["none", "42", "69", "blowin' in the wind"],
+        fancyName: "Elementary School",
+        question: "There are 100 centimeters in a meter, and 1,000 milliliters in a liter. One cubic centimeter is equal to one milliliter. How many liters are in one cubic meter?",
+        answers: ["0.1", "10", "100", "1,000"],
         correctAnswer: 3,
     },
     {
-        fancyName: "Middle",
-        question: "How many seas must a white dove sail?",
-        answers: ["none", "42", "69", "blowin' in the wind"],
-        correctAnswer: 3,
+        fancyName: "Middle School",
+        question: "Asha lives 2 miles south and 15 miles east of the post office. Felipe lives 12 miles south and 9 miles west of the post office. How far apart do Asha and Felipe live?",
+        answers: ["16 miles", "26 miles", "34 miles", "38 miles"],
+        correctAnswer: 1,
     },
     {
         fancyName: "High School",

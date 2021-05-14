@@ -10,13 +10,13 @@ function Home(props) {
             <section className="flex">
                 <figure className="aside-left">
                     <div className="round-frame">
-                        <img src="https://placekitten.com/g/200/200" alt="This is CHARLIE. Charlie DOES NOT BITE. They can TEACH YOU MATH."/>
+                        <img src="https://placekitten.com/g/200/200" alt="Sophia 'Charlie' Dever"/>
                     </div>
-                        <figcaption>This is CHARLIE. Charlie DOES NOT BITE. They can TEACH YOU MATH.</figcaption>
+                        <figcaption>Sophia "Charlie" Dever</figcaption>
                 </figure>
                 <div>
                     <p className="splash-text">
-                    Teegarden Tutoring offers premier one-on-one K-12 math tutoring over Zoom for support and enrichment. 
+                    Teegarden Tutoring is a Bay-Area-based company offering premier one-on-one K-12 math tutoring over Zoom for support and enrichment. 
                     Whether your student is looking for help in a challenging math class, coaching for an upcoming test or contest, 
                     or to explore beyond the boundaries of what they're learning in school, we're here to help.</p>
 

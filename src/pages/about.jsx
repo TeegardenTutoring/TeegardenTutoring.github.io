@@ -10,39 +10,40 @@ function About(props) {
                 <figcaption>This time the picture is OVER HERE and it's FUNKY.</figcaption>
             </figure>
             <p>
-                <b>Sophia "Charlie" Dever</b> is one cool cat.
-                They know so much math. Like, all the math.
-                It's crazy actually.
+                <b>Sophia "Charlie" Dever</b> is a mathematician with a background in teaching, research, and 
+                curriculum development. Charlie has a B.S. in mathematics from UT Austin, and previously taught 
+                and developed curriculum for the Art of Problem Solving, the Russian School of Mathematics, 
+                and Bay Area Learning Partners.
+            </p><p>
+                With over a decade of K-12 math tutoring experience, Charlie has prepared students for tests including 
+                the SAT, ACT, ISEE, and PSAT. Charlie also has experience teaching programming, chemistry, Latin, and fencing!
+            </p><p>
+                For a free intake assessment and consultation with Charlie, click the button below.
             </p>
-            <ul>
-                <li>
-                    Here are some BULLET POINTS!
-                </li>
-                <li>
-                    They're COOL THINGS ABOUT ME.
-                </li>
-                <li>
-                    There will probably be LIKE FIVE.
-                </li>
-                <li>
-                    There are pink dolphins in the Amazon river.
-                </li>
-                <li>
-                    Yep, that's five.
-                </li>
-            </ul>
+            <ShinyButton />
+            <p className="splash-text">What sets Teegarden Tutoring apart from other tutors?</p>
+            <p className="splash-text">COMPETITIONS</p>
             <p>
                 Now I'm probably talking about my TEACHING PHILOSOPHY.
-                My teaching philosophy is don't suck at teaching.
-                It's a great philosophy.
+                Personal experience with writing, proctoring, grading, & 
+                competing in math competitions gives us an insider's view into how the strongest young mathematicians prepare.
             </p>
+            <p className="splash-text">CURRICULUM</p>
             <p>
-                This part is probably bragging about my education and experience and stuff.
-                I can pretend to be a Russian OR a Hungarian.
-                Actually I technically have a certificate in Eastern European studies, but that's for totally unrelated reasons.
+            We work with you and your student to find the right curriculum materials, 
+            whether that means the textbook their school uses or worksheets geared for their learning style. 
+            And if we can't find something "just right", our curriculum experts create it.
             </p>
-            <p>Want to get to know me? Try the shiny button!</p>
-            <ShinyButton />
+            <p className="splash-text">INTERNATIONAL</p>
+            <p>
+            International training in Russian and Hungarian pedagogy means a diverse background to find a teaching style 
+            that works for your student's particular needs.
+            </p>
+            <p className="splash-text">VIRUAL</p>
+            <p>
+            At this moment, everyone is struggling to adjust to remote learning. We have years of experience 
+            refining teaching techniques that work in the virtual classroom.
+            </p>
         </main>
     )
 }

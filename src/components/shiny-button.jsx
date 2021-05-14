@@ -13,7 +13,7 @@ function ShinyButton(props) {
     const href = `mailto:teegarden.math@gmail.com?&subject=${subject}&body=${body}`;
 
     return (
-        <a href={href} className="shiny-button">▶ SHINY BUTTON</a>
+        <a href={href} className="shiny-button">▶ Contact us</a>
     )
 };
 
