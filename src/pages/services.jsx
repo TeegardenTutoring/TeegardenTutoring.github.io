@@ -45,6 +45,13 @@ function Services(props) {
 
     return (
         <main className="services">
+            <p>All services include, if desired:</p>
+            <ul>
+                <li>Homework assigned after each session</li>
+                <li>Monthly progress assessments</li>
+                <li>Free monthly half-hour parent-teacher meeting</li>
+            </ul>
+            <p>An initial consultation and intake assessment is free. Availability is Sunday-Thursday. Let us know how we can work around your schedule!</p>
             {SERVICES_OFFERED.map((service) => 
                 <section className="service">
                     <div className="header">

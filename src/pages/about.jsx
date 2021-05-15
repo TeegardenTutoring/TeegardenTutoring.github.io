@@ -6,8 +6,8 @@ function About(props) {
     return ( 
         <main>
             <figure className="aside-right">
-                <img src="https://placekitten.com/g/200/200" alt="this is a placekitten" />
-                <figcaption>This time the picture is OVER HERE and it's FUNKY.</figcaption>
+                <img src="https://placekitten.com/g/200/200" alt="Charlie at work" />
+                <figcaption>Charlie at work</figcaption>
             </figure>
             <p>
                 <b>Sophia "Charlie" Dever</b> is a mathematician with a background in teaching, research, and 
