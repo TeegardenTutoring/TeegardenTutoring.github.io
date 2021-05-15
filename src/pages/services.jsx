@@ -51,7 +51,8 @@ function Services(props) {
                 <li>Monthly progress assessments</li>
                 <li>Free monthly half-hour parent-teacher meeting</li>
             </ul>
-            <p>An initial consultation and intake assessment is free. Availability is Sunday-Thursday. Let us know how we can work around your schedule!</p>
+            <p>An initial consultation and intake assessment is free. Availability is Sunday-Thursday. 
+                Let us know how we can work around your schedule!</p>
             {SERVICES_OFFERED.map((service) => 
                 <section className="service">
                     <div className="header">
