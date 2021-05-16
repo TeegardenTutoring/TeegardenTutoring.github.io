@@ -12,31 +12,36 @@ const SERVICES_OFFERED = [
     {
         icon: "✎",
         name: "Elementary School",
-        blurb: "Learn about very small numbers. Zero. One. Maybe two. No promises.",
+        blurb: "K-5 students are building foundational math skills for their future learning. We focus on number sense, early algebraic thinking, and drawing out natural love for math with puzzles and games.",
+        schedule: "For our smallest students, we recommend weekly sessions of no more than 1 hour.",
         price: 120
     },
     {
         icon: "✎",
         name: "Middle School",
-        blurb: "Smart with math but stupid with love? We can do even smarter with math!",
+        blurb: "In grades 6-8, students are entering a phase of intense intellectual exploration and experimentation. We focus on building a deep understanding of functions, geometric constructions, and nurturing problem-solving skills.",
+        schedule: "In the middle years, we recommend 75-minute weekly sessions.",
         price: 140
     },
     {
         icon: "✎",
         name: "High School",
-        blurb: "Don't you kids have enough homework already? Do you really want more? Blink twice if you're being watched.",
+        blurb: "Students in grades 9-12 are working towards an adult-level mastery of mathematical thought as they prepare for college and beyond. We focus on mathematical rigor, proof-writing, and a solid grounding in practical trig and calculus for students pursuing further STEM education.",
+        schedule: "As students tackle more complex problems, we recommend 90-minute weekly sessions.",
         price: 160
     },
     {
         icon: "✎",
         name: "Test Prep",
-        blurb: "I can just charge whatever I want for this because the scholarships are worth it.",
+        blurb: "Prepare for standardized tests like the SAT, ACT, PSAT, ISEE, or AP Calculus with intensive tutoring to boost your score. We focus on practice tests, test-taking strategies, and addressing test anxiety. Optionally includes prep for reading, verbal, and essay portions.",
+        schedule: "In the lead-up to a major test, we recommend 60- or 90-minute sessions twice a week.",
         price: 180
     },
     {
         icon: "✎",
         name: "Competition Coaching",
-        blurb: "Oh please? It's my very favorite thing. Please hire me for this. Please please please.",
+        blurb: "Train for Mathcounts, AMC8/10/12, AIME, Math League, and other competitions with a math competition veteran. We focus on clever problem-solving, time management, and unique tactics for each test.",
+        schedule: "In order to have time for practice tests, we recommend weekly sessions of 60 minutes for middle schoolers and 90 minutes for high schoolers.",
         price: 180
     }
 ]
@@ -68,6 +73,7 @@ function Services(props) {
                     </div>
                     <div>
                         <p>{service.blurb}</p>
+                        <p>{service.schedule}</p>
                         <ShinyButton subject={`[New Student] ${service.name} Intake`}/>
                     </div>
                 </section>
