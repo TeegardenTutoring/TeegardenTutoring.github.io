@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ShinyButton from '../components/shiny-button';
 
 // const example = {
@@ -57,8 +57,8 @@ function Services(props) {
     return (
         <main className="services">
             <div className="service-menu">
-                {SERVICES_OFFERED.map((service) => 
-                    <section className="service">
+                {SERVICES_OFFERED.map((service, idx) => 
+                    <section className={`service`}>
                         <div className="header">
                             <div style={ { display: "flex" } }>
                                 <div className="icon-window">
@@ -73,7 +73,6 @@ function Services(props) {
                         <div className="body">
                             <p>{service.blurb}</p>
                             <p>{service.schedule}</p>
-                            <ShinyButton subject={`[New Student] ${service.name} Intake`}/>
                         </div>
                     </section>
                 )}
@@ -95,8 +94,13 @@ function Services(props) {
                         <p>Here is a blurb about why having this is cool, great and awesome.</p>
                     </li>
                 </ul>
-                <p>An initial consultation and intake assessment is free. Availability is Sunday-Thursday.
-                Let us know how we can work around your schedule!</p>
+                <h3>Availability</h3>
+                <div className="flex">
+                    <b>Sun-Thurs.</b>
+                    <b>8 am. - 8 pm.</b>
+                </div>
+                <p>Let us know how we can work around your schedule!</p>
+                <ShinyButton subject={`[New Student] Intake`} />
             </aside>
         </main>
     )

@@ -235,14 +235,19 @@ footer {
 
 .services {
   display: grid;
-  grid-template-columns: 67% 33%;
+  grid-template-columns: auto 275px;
 
   aside {
     border: 2px solid lightgray;
     border-radius: .5em;
     margin-left: 1em;
-    padding: 0 1em;
+    padding: 1em;
+    padding-top: 0em;
     height: fit-content;
+    width: 250px;
+
+    position: sticky;
+    top: 1em;
 
     ul {
       list-style: none;
@@ -289,16 +294,10 @@ footer {
   h3 {
     margin: 0px;
   }
+
   .body {
-
-    display: flex;
-    flex-direction: column;
-
-      .shiny-button {
-      align-self: flex-end;
-    }
+    margin: 0em 1em;
   }
-
 
 }
 
@@ -403,6 +402,14 @@ main {
         font-size: 10pt;
         margin: 1em;
       }
+    }
+  }
+
+  .services {
+    grid-template-columns: auto;
+    aside {
+      margin-left: 0px;
+      width: auto;
     }
   }
 
