@@ -11,6 +11,12 @@ import ShinyButton from '../components/shiny-button';
 const SERVICES_OFFERED = [
     {
         icon: "✎",
+        name: "Initial Consultation/Intake Assessment",
+        blurb: "something about how you consult and intake",
+        price: 0
+    },
+    {
+        icon: "✎",
         name: "Elementary School",
         blurb: "K-5 students are building foundational math skills for their future learning. We focus on number sense, early algebraic thinking, and drawing out natural love for math with puzzles and games.",
         schedule: "For our smallest students, we recommend weekly sessions of no more than 1 hour.",
@@ -50,34 +56,48 @@ function Services(props) {
 
     return (
         <main className="services">
-            <p>All services include, if desired:</p>
-            <ul>
-                <li>Homework assigned after each session</li>
-                <li>Monthly progress assessments</li>
-                <li>Free monthly half-hour parent-teacher meeting</li>
-            </ul>
-            <p>An initial consultation and intake assessment is free. Availability is Sunday-Thursday. 
-                Let us know how we can work around your schedule!</p>
-            {SERVICES_OFFERED.map((service) => 
-                <section className="service">
-                    <div className="header">
-                        <div style={ { display: "flex" } }>
-                            <div className="icon-window">
-                                {service.icon}
+            <div className="service-menu">
+                {SERVICES_OFFERED.map((service) => 
+                    <section className="service">
+                        <div className="header">
+                            <div style={ { display: "flex" } }>
+                                <div className="icon-window">
+                                    {service.icon}
+                                </div>
+                                <h3>{service.name}</h3>
                             </div>
-                            <h3>{service.name}</h3>
+                            <div className="price">
+                                <span>{service.price ? `$${service.price}/hr` : <span className="green">Free</span>}</span>
+                            </div>
                         </div>
-                        <div className="price">
-                            <span>${service.price}/hr</span>
+                        <div className="body">
+                            <p>{service.blurb}</p>
+                            <p>{service.schedule}</p>
+                            <ShinyButton subject={`[New Student] ${service.name} Intake`}/>
                         </div>
-                    </div>
-                    <div>
-                        <p>{service.blurb}</p>
-                        <p>{service.schedule}</p>
-                        <ShinyButton subject={`[New Student] ${service.name} Intake`}/>
-                    </div>
-                </section>
-            )}
+                    </section>
+                )}
+            </div>
+            <aside>
+                <h3>All Plans</h3>
+                <p>All services include, if desired:</p>
+                <ul>
+                    <li>
+                        <h4>Homework assigned after each session.</h4>
+                        <p>Here is a blurb about why having this is cool, great and awesome.</p>
+                    </li>
+                    <li>
+                        <h4>Monthly progress assessments.</h4>
+                        <p>Here is a blurb about why having this is cool, great and awesome.</p>
+                    </li>
+                    <li>
+                        <h4>Monthly parent-teacher meetings.</h4>
+                        <p>Here is a blurb about why having this is cool, great and awesome.</p>
+                    </li>
+                </ul>
+                <p>An initial consultation and intake assessment is free. Availability is Sunday-Thursday.
+                Let us know how we can work around your schedule!</p>
+            </aside>
         </main>
     )
 }

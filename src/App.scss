@@ -9,6 +9,10 @@ $blue-li-20: #4991c9;
 $blue-li-50: #9ecff7;
 $green-li-50: #c3e0aa;
 
+.green {
+  color: $green;
+}
+
 .App {
   padding-top: 30px;
   margin: 0px 60px;
@@ -126,10 +130,6 @@ figure {
 section {
   margin: 0px;
   padding: 3em 0em;
-
-  &:first-child {
-    padding: 0em;
-  }
 }
 
 .slick-slider {
@@ -233,6 +233,33 @@ footer {
   white-space: nowrap;
 }
 
+.services {
+  display: grid;
+  grid-template-columns: 67% 33%;
+
+  aside {
+    border: 2px solid lightgray;
+    border-radius: .5em;
+    margin-left: 1em;
+    padding: 0 1em;
+    height: fit-content;
+
+    ul {
+      list-style: none;
+      padding-inline-start: .5em;
+
+      p {
+        padding-inline-start: .5em;
+      }
+    }
+
+    h4 {
+      margin: 0px;
+    }
+
+  }
+}
+
 .service {
   position: relative;
   margin: auto;
@@ -262,6 +289,16 @@ footer {
   h3 {
     margin: 0px;
   }
+  .body {
+
+    display: flex;
+    flex-direction: column;
+
+      .shiny-button {
+      align-self: flex-end;
+    }
+  }
+
 
 }
 
@@ -350,6 +387,7 @@ main {
   }
 
   .bio {
+    padding-top: none;
     figure {
       display: none;
     }
