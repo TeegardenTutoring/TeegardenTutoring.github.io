@@ -99,6 +99,7 @@ figure {
 }
 
 .bio {
+  padding-top: 0px;
   display: flex;
 
   div {
@@ -274,7 +275,7 @@ footer {
   border: 2px solid $blue-li-50;
   border-radius: .5em;
 
-  padding: .5em;
+  padding: 1em;
 
   .header {
     display: flex;
@@ -293,10 +294,6 @@ footer {
 
   h3 {
     margin: 0px;
-  }
-
-  .body {
-    margin: 0em 1em;
   }
 
 }
@@ -335,6 +332,8 @@ main {
     }
     h3 {
       float: right;
+      font-size: 20pt;
+      text-align: right;
     }
   }
 
@@ -413,4 +412,23 @@ main {
     }
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  .App {
+    margin: 0px 20px;
+  }
+
+  .bio {
+    width: 80%;
+    margin: auto;
+  }
+
+  .info-card {
+    padding: 1em;
+  }
 }
