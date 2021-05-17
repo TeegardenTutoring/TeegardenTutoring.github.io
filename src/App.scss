@@ -224,17 +224,13 @@ footer {
   padding: .5em;
 
   border: 2px solid $blue;
-  color: $blue;
-  background-color: white;
+  background-color: $blue;
+  color: white;
 
   border-radius: .25em;
   font-weight: bold;
   font-size: 10pt;
   white-space: nowrap;
-}
-
-.shiny-button:hover {
-  font-weight: 500;
 }
 
 .service {

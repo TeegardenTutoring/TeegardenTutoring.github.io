@@ -36,41 +36,48 @@ function Quizlet() {
         setAnswered(false);
     }
 
-    if (!answered) {
-        return (
-            <div className="quizlet">
-                <nav className="grade-level-menu">
-                    {problems.map((problem, idx) => {
-                        return <button onClick={() => { setProblemIndex(idx)}} key={`problem-${idx}`}>{problem.fancyName}</button>
-                    })}
-                </nav>
-                <div className="problem">
-                    <span className="question">{problem.question}</span>
-                    <div className="answers">
-                    { problem.answers.map((answer, idx) => {
-                        return (
-                            <button onClick={() => { inputAnswer(idx) }} className="answer-button" key={`answer-${idx}`}>{answer}</button>
-                        )
-                    })}
-                    </div>
+    const selectProblem = (idx) => {
+        return () => {
+            setProblemIndex(idx);
+            setAnswered(false);
+        }
+    }
+
+
+    return (
+        <div className="quizlet">
+            <nav className="grade-level-menu">
+                {problems.map((problem, idx) => {
+                    return <button onClick={selectProblem(idx)} key={`problem-${idx}`}>{problem.fancyName}</button>
+                })}
+            </nav>
+            { !answered ?
+            <div className="problem">
+                <span className="question">{problem.question}</span>
+                <div className="answers">
+                { problem.answers.map((answer, idx) => {
+                    return (
+                        <button onClick={() => { inputAnswer(idx) }} className="answer-button" key={`answer-${idx}`}>{answer}</button>
+                    )
+                })}
                 </div>
             </div>
-        )
-    } else {
-        return (
-        <div className="quizlet">
-            <button onClick={goBack}>⬅ Back</button>
-            { correct ? 
-            <div>
-                <h2>Correct!</h2>
-            </div> 
             : 
             <div>
-                <h2>Incorrect!</h2>
-            </div> }
+                <button onClick={goBack}>⬅ Back</button>
+                {correct ?
+                    <div>
+                        <h2>Correct!</h2>
+                    </div>
+                    :
+                    <div>
+                        <h2>Incorrect!</h2>
+                    </div>
+                }
+            </div>
+            }
         </div>
-        );
-    }
+    )
 };
 
 export default Quizlet;
