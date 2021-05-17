@@ -1,15 +1,19 @@
-
-
-.App {
-  margin: 30px 60px;
-}
-
 $blue: #1c75bc;
 $green: #87c154;
 
+$red: #D84848;
+$orange: #E09149;
+$yellow: #E1CD63;
+
 $blue-li-20: #4991c9;
-$blue-li-50: #8ebade;
+$blue-li-50: #9ecff7;
 $green-li-50: #c3e0aa;
+
+.App {
+  padding-top: 30px;
+  margin: 0px 60px;
+  background-color: white;
+}
 
 header {
   display: flex;
@@ -89,6 +93,10 @@ figure {
   justify-content: space-between;
 }
 
+.bio {
+  display: flex;
+}
+
 .testimonial {
   text-align: center;
   font-size: 20px;
@@ -96,31 +104,42 @@ figure {
 }
 
 section {
-  margin: 10px 0px;
+  margin: 0px;
+  padding: 3em 0em;
+
+  &:first-child {
+    padding: 0em;
+  }
 }
 
-.carousel {
+.slick-slider {
   margin-bottom: 3em;
 }
 
 .quizlet {
 
-  max-width: 800px;
   margin: auto;
   padding: 1em;
-  background-color: lightgray;
+
+  display: flex;
+  justify-content: center;
 
   .grade-level-menu {
-    justify-content: flex-start;
-    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid lightgray;
+    border-radius: .5em;
+    padding: 0em 1em;
+
+    margin-right: 1em;
 
     button {
       background-color: transparent;
       border: none;
       font-size: 16px;
       font-weight: bold;
-      color: gray;
-      margin-right: 3em;
+      color: $blue;
 
       &:hover {
         color: black;
@@ -130,6 +149,8 @@ section {
 
   .problem {
     margin: .5em;
+    max-width: 800px;
+    flex-grow: 1;
   }
 
   .answers {
@@ -140,6 +161,16 @@ section {
       margin-top: .5em;
       width: 100%;
       height: 3em;
+      background-color: white;
+      border: 1px solid $blue-li-50;
+      border-radius: .25em;
+
+      font-weight: bold;
+
+      &:hover {
+        background-color: $blue-li-50;
+        color: white;
+      }
     }
   }
 }
@@ -221,4 +252,73 @@ main {
 .contact {
   display: flex;
   margin-bottom: 2em;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  // text-align: center;
+
+  padding: 1em 3em;
+  margin: 1em;
+
+  border: 1px solid lightgray;
+  border-radius: .5em;
+
+  .card-head {
+    .icon-frame {
+      display: none;
+    }
+    h3 {
+      float: right;
+    }
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .icon-frame {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    overflow: hidden;
+  }
+
+  h3 {
+    margin: .25em;
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+//for wide screen only
+.shinies {
+    display: flex;
+    .slick-slider {
+      width: 45%;
+      padding: 2em;
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+  .card-container {
+    grid-template-columns: auto;
+    .icon-frame {
+      display: none;
+    }
+  }
+
+  .shinies {
+    flex-direction: column;
+    .slick-slider {
+      width: 100%;
+    }
+  }
+
 }
