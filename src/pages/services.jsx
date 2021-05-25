@@ -11,7 +11,7 @@ import ShinyButton from '../components/shiny-button';
 const SERVICES_OFFERED = [
     {
         name: "Initial Consultation/Intake Assessment",
-        blurb: "something about how you consult and intake",
+        blurb: "Something about how you consult and intake",
         price: 0
     },
     {
