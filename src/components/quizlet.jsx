@@ -68,6 +68,10 @@ function Quizlet() {
                 {correct ?
                     <div>
                         <h2>Correct!</h2>
+                        <p>Was this problem easy? Consider contacting us for extension and enrichment tutoring.</p>
+                        <p>Teegarden Tutoring offers a free intake assessment with 20 more original questions 
+                            like this one. Talk to us about finding your child's challenge level to keep gifted
+                            students excited and engaged with math.</p>
                     </div>
                     :
                     <div>
