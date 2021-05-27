@@ -63,7 +63,7 @@ function Quizlet() {
                 </div>
             </div>
             : 
-            <div>
+            <div className="quizlet">
                 <button onClick={goBack}>⬅ Back</button>
                 {correct ?
                     <div>
