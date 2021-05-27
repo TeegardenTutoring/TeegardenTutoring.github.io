@@ -76,6 +76,10 @@ function Quizlet() {
                     :
                     <div>
                         <h2>Incorrect!</h2>
+                        <p>Having trouble with math? We can help!</p>
+                        <p>Teegarden Tutoring offers academic support, homework help, and test prep for 
+                            students looking for that little boost. Contact us to set up an intake assessment
+                            and we can work out a plan for your student's needs.</p>
                     </div>
                 }
             </div>
