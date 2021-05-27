@@ -10,8 +10,8 @@ import ShinyButton from '../components/shiny-button';
 
 const SERVICES_OFFERED = [
     {
-        name: "Initial Consultation/Intake Assessment",
-        blurb: "Something about how you consult and intake",
+        name: "Initial Consultation & Intake Assessment",
+        blurb: "We'll send you a 30-minute test, written in-house, for your student to try. Based on the results, we then offer a free initial consultation over phone, email, or Zoom, to get to know you and discuss your student's learning needs. No commitment required.",
         price: 0
     },
     {
@@ -77,15 +77,20 @@ function Services(props) {
                 <ul>
                     <li>
                         <h4>Homework assigned after each session.</h4>
-                        <p>Here is a blurb about why having this is cool, great and awesome.</p>
+                        <p>Get the most out of your time with take-home assignments to practice and develop the skills
+                            covered in sessions.</p>
                     </li>
                     <li>
                         <h4>Monthly progress assessments.</h4>
-                        <p>Here is a blurb about why having this is cool, great and awesome.</p>
+                        <p>Empirical data for you and for us, so we can refine our approach to meet your student's needs 
+                            and reinforce problem areas.
+                        </p>
                     </li>
                     <li>
                         <h4>Monthly parent-teacher meetings.</h4>
-                        <p>Here is a blurb about why having this is cool, great and awesome.</p>
+                        <p>Offered via email, phone, or Zoom, for your convenience. You are a core member of your child's 
+                            learning team, and it's important to us to stay in sync with you on their progress.
+                        </p>
                     </li>
                 </ul>
                 <h3>Availability</h3>
