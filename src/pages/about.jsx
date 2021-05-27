@@ -6,7 +6,7 @@ function About(props) {
     return ( 
         <main>
             <figure className="aside-right">
-                <img src="https://placekitten.com/g/200/200" alt="Charlie at work" />
+                <img src="/headshot.png" alt="Charlie at work" />
                 <figcaption>Charlie at work</figcaption>
             </figure>
             <p>

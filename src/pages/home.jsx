@@ -9,12 +9,13 @@ function Home(props) {
     return (
         <main>
             <section className="bio">
-                <figure className="aside-left">
+                {/* <figure className="aside-left">
                     <div className="round-frame">
                         <img src="https://placekitten.com/g/200/200" alt="Sophia 'Charlie' Dever"/>
                     </div>
                         <figcaption>Sophia "Charlie" Dever</figcaption>
-                </figure>
+                </figure> */}
+                <img src="/banner.jpg" alt="A girl on her laptop, celebrating."/>
                 <div>
                     <p className="splash-text">
                     Teegarden Tutoring is a Bay-Area-based company offering premier one-on-one K-12 math tutoring over Zoom for support and enrichment. 

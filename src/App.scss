@@ -66,6 +66,10 @@ figure {
   border-radius: 10px;
   border: 2px solid lightgray;
 
+  img {
+    width: 200px;
+  }
+
   figcaption {
     margin-top: 1em;
     text-align: center;
@@ -100,18 +104,31 @@ figure {
 
 .bio {
   padding-top: 0px;
-  display: flex;
+  padding-bottom: 0px;
+  position: relative;
+
+  margin: 0px -60px;
 
   div {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 20px;
   }
 
   .shiny-button {
     width: fit-content;
     margin-right: 2em;
   }
+
+  &> img {
+    object-fit: cover;
+    width: 100%;
+
+    max-height: 75vh;
+  }
+
 }
 
 .slide {
