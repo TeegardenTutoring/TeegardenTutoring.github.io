@@ -64,7 +64,7 @@ function Quizlet() {
             </div>
             : 
             <div className="quizlet">
-                <button onClick={goBack}>⬅ Back</button>
+                <button onClick={goBack} className="back">⬅ Back</button>
                 {correct ?
                     <div>
                         <h2>Correct!</h2>
