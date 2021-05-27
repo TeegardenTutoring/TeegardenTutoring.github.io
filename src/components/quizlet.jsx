@@ -15,9 +15,9 @@ const problems = [
     },
     {
         fancyName: "High School",
-        question: "How many times must the cannonballs fly?",
-        answers: ["none", "42", "69", "blowin' in the wind"],
-        correctAnswer: 3,
+        question: "A trapezoid with area 72 has bases 2x and 2x+14, and height x. Find x.",
+        answers: ["-8", "3.5", "4.5", "8"],
+        correctAnswer: 2,
     },
 ];
 
