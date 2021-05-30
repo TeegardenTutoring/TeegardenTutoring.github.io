@@ -7,6 +7,8 @@ import InfoCard from './InfoCard';
 //     color: #000000,
 // };
 
+const HEAD_COLORS = ['#D84848', '#E09149', '#87C154', "#1C75BC"];
+
 const CARD_LIST = [
     { 
         title: "Student-led learning.",
@@ -46,9 +48,12 @@ const CARD_LIST = [
 ]
 
 function Cards(props) {
+
+    const { cards } = props;
+
     return (
         <div className="card-container">
-            {CARD_LIST.map((card) => {
+            {cards.map((card, idx) => {
                 return <InfoCard key={card.title} {...card} />
             })}
         </div>
