@@ -71,7 +71,7 @@ function Home(props) {
                 <Quizlet />
             <section>
                 <h1 style={{ textAlign: 'center' }}>At Teegarden Tutoring, we believe in:</h1>
-                <Cards cardList={CARD_LIST} />
+                <Cards cards={CARD_LIST} />
             </section>
         </main>
     )

@@ -13,7 +13,7 @@ function Cards(props) {
 
     return (
         <div className="card-container">
-            {cards.map((card, idx) => {
+            {cards.map((card) => {
                 return <InfoCard key={card.title} {...card} />
             })}
         </div>
