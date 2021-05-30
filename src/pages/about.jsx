@@ -24,7 +24,6 @@ function About(props) {
             <p className="splash-text">What sets Teegarden Tutoring apart from other tutors?</p>
             <p className="splash-text">COMPETITIONS</p>
             <p>
-                Now I'm probably talking about my TEACHING PHILOSOPHY.
                 Personal experience with writing, proctoring, grading, & 
                 competing in math competitions gives us an insider's view into how the strongest young mathematicians prepare.
             </p>
@@ -39,7 +38,7 @@ function About(props) {
             International training in Russian and Hungarian pedagogy means a diverse background to find a teaching style 
             that works for your student's particular needs.
             </p>
-            <p className="splash-text">VIRUAL</p>
+            <p className="splash-text">VIRTUAL</p>
             <p>
             At this moment, everyone is struggling to adjust to remote learning. We have years of experience 
             refining teaching techniques that work in the virtual classroom.
