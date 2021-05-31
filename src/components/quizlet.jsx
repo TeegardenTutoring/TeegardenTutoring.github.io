@@ -63,7 +63,7 @@ function Quizlet() {
                 </div>
             </div>
             : 
-            <div className="quizlet">
+            <div className="result">
                 <button onClick={goBack} className="back">⬅ Back</button>
                 {correct ?
                     <div>
@@ -74,7 +74,7 @@ function Quizlet() {
                             students excited and engaged with math.</p>
                     </div>
                     :
-                    <div>
+                    <div className="result">
                         <h2>Incorrect!</h2>
                         <p>Having trouble with math? We can help!</p>
                         <p>Teegarden Tutoring offers academic support, homework help, and test prep for 
