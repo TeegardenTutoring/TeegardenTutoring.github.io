@@ -452,6 +452,10 @@ main {
   .bio {
     width: 80%;
     margin: auto;
+
+    img {
+      display: none;
+    }
   }
 
   .info-card {
