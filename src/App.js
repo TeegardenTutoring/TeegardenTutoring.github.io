@@ -1,7 +1,7 @@
 import './App.scss';
 import '../node_modules/slick-carousel/slick/slick-theme.css'
 import '../node_modules/slick-carousel/slick/slick.css'
-import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Link, HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import About from './pages/about';
 import Home from './pages/home';
