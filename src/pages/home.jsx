@@ -56,7 +56,8 @@ function Home(props) {
                 <img src="/banner.jpg" alt="A girl on her laptop, celebrating."/>
                 <div>
                     <p className="splash-text">
-                    Teegarden Tutoring is a Bay-Area-based company offering premier one-on-one K-12 math tutoring over Zoom for support and enrichment. 
+                    Teegarden Tutoring is a small independent tutoring business, specializing in premier one-on-one K-12 math tutoring over Zoom for support and enrichment.
+                    Charlie works with students from a number of Bay Area schools, and accepts new students from any location.
                     Whether your student is looking for help in a challenging math class, coaching for an upcoming test or contest, 
                     or to explore beyond the boundaries of what they're learning in school, we're here to help.</p>
 
