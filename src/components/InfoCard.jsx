@@ -7,7 +7,7 @@ const InfoCard = (props) => {
     return (
         <div className="info-card">
             <div className="card-head">
-                <h3 style={{ color: color}}>{title}</h3>
+                <h3 style={{ color: (color || "#1c75bc")}}>{title}</h3>
             </div>
             <div className="card-body">
                 <p>{body}</p>

@@ -1,7 +1,7 @@
 import './App.scss';
 import '../node_modules/slick-carousel/slick/slick-theme.css'
 import '../node_modules/slick-carousel/slick/slick.css'
-import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Link, HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import About from './pages/about';
 import Home from './pages/home';
@@ -39,7 +39,7 @@ function App() {
           </Route>
         </Switch>
         <footer>
-          <div>Teegarden Tutoring — powered by <a href="ashen.works">Ash Todd</a> © 2021</div>
+          <div>Teegarden Tutoring — powered by <a href="https://www.ashen.works/#/">Ash Todd</a> © 2021</div>
           <div className="footer-contact">
             <a href="tel:408-755-5141">✆ (408) 755-5141</a>
             <a href="mailto:teegarden.math@gmail.com">✉︎ teegarden.math@gmail.com</a>
