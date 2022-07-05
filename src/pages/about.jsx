@@ -10,7 +10,7 @@ function About(props) {
                 <figcaption>Charlie</figcaption>
             </figure>
             <p>
-                <b>Sophia "Charlie" Dever</b> is a mathematician with a background in teaching, research, and 
+                <b>Charlie Dever</b> is a mathematician with a background in teaching, research, and 
                 curriculum development. Charlie has a B.S. in mathematics from UT Austin, and previously taught 
                 and developed curriculum for the Art of Problem Solving, the Russian School of Mathematics, 
                 and Bay Area Learning Partners.
@@ -18,7 +18,7 @@ function About(props) {
                 With over a decade of K-12 math tutoring experience, Charlie has prepared students for tests including 
                 the SAT, ACT, ISEE, and PSAT. Charlie also has experience teaching programming, chemistry, Latin, and fencing!
             </p><p>
-                For a free intake assessment and consultation with Charlie, click the button below.
+                For a free intake assessment and consultation, click the button below.
             </p>
             <ShinyButton />
             <p className="splash-text">What sets Teegarden Tutoring apart from other tutors?</p>

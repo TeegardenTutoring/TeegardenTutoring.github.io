@@ -49,9 +49,9 @@ function Home(props) {
             <section className="bio">
                 {/* <figure className="aside-left">
                     <div className="round-frame">
-                        <img src="https://placekitten.com/g/200/200" alt="Sophia 'Charlie' Dever"/>
+                        <img src="https://placekitten.com/g/200/200" alt="Charlie Dever"/>
                     </div>
-                        <figcaption>Sophia "Charlie" Dever</figcaption>
+                        <figcaption>Charlie Dever</figcaption>
                 </figure> */}
                 <img src="/banner.jpg" alt="A girl on her laptop, celebrating."/>
                 <div>
