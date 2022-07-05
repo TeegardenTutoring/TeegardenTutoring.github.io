@@ -25,13 +25,13 @@ function About(props) {
             <p className="splash-text">COMPETITIONS</p>
             <p>
                 Personal experience with writing, proctoring, grading, & 
-                competing in math competitions gives us an insider's view into how the strongest young mathematicians prepare.
+                competing in math competitions gives Charlie an insider's view into how the strongest young mathematicians prepare.
             </p>
             <p className="splash-text">CURRICULUM</p>
             <p>
-            We work with you and your student to find the right curriculum materials, 
+            Teegarden Tutoring will work with you and your student to find the right curriculum materials, 
             whether that means the textbook their school uses or worksheets geared for their learning style. 
-            And if we can't find something "just right", our curriculum experts create it.
+            And if we can't find something "just right", Charlie will design custom materials for your student's needs.
             </p>
             <p className="splash-text">INTERNATIONAL</p>
             <p>
@@ -40,7 +40,7 @@ function About(props) {
             </p>
             <p className="splash-text">VIRTUAL</p>
             <p>
-            At this moment, everyone is struggling to adjust to remote learning. We have years of experience 
+            At this moment, everyone is struggling to adjust to remote learning. Charlie has years of experience 
             refining teaching techniques that work in the virtual classroom.
             </p>
         </main>
