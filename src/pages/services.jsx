@@ -15,9 +15,15 @@ const SERVICES_OFFERED = [
         price: 0
     },
     {
+        name: "Kindergarten",
+        blurb: "Kindergarten lessons feature games and puzzles to teach foundational skills in logic and mathematical reasoning. No computer skills required.",
+        schedule: "To accommodate little attention spans, we meet for sessions of no more than 30 minutes.",
+        price: 60
+    },
+    {
         name: "Elementary School",
-        blurb: "K-5 students are building foundational math skills for their future learning. We focus on number sense, early algebraic thinking, and drawing out natural love for math with puzzles and games.",
-        schedule: "For our smallest students, we recommend weekly sessions of no more than 1 hour.",
+        blurb: "Students in grades 1-5 are building foundational math skills for their future learning. We focus on number sense, early algebraic thinking, and drawing out natural love for math with puzzles and games.",
+        schedule: "For these young students, we recommend weekly sessions of no more than 1 hour.",
         price: 75
     },
     {
