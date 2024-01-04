@@ -11,7 +11,7 @@ import ShinyButton from '../components/shiny-button';
 const SERVICES_OFFERED = [
     {
         name: "Initial Consultation & Intake Assessment",
-        blurb: "We'll send you a 30-minute test, written in-house, for your student to try. Based on the results, we then offer a free initial consultation over phone, email, or Zoom, to get to know you and discuss your student's learning needs. No commitment required.",
+        blurb: "I'll send you a 30-minute test, written in-house, for your student to try. Based on the results, we then offer a free initial consultation over phone, email, or Zoom, to get to know you and discuss your student's learning needs. No commitment required.",
         price: 0
     },
     {
