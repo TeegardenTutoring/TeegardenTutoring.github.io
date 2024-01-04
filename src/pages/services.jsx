@@ -23,7 +23,7 @@ const SERVICES_OFFERED = [
     {
         name: "Elementary School",
         blurb: "Students in grades 1-5 are building foundational math skills for their future learning. We focus on number sense, early algebraic thinking, and drawing out natural love for math with puzzles and games.",
-        schedule: "For these young students, we recommend weekly sessions of no more than 1 hour.",
+        schedule: "For these young students, I recommend weekly sessions of no more than 1 hour.",
         price: 75
     },
     {
