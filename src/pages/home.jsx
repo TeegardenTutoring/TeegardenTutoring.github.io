@@ -9,35 +9,35 @@ const CARD_LIST = [
         title: "Student-led learning.",
         body: `An inquiry-based approach gives students genuine ownership of the math they learn, 
             and sets them up for math and the sciences in college and beyond. 
-            We know that before you can find the right answers, you have to ask the right questions,
-            and we encourage students to pursue their questions about the math they learn in school:
+            Charlie knows that before you can find the right answers, you have to ask the right questions,
+            and he encourages students to pursue their questions about the math they learn in school:
             why is that true? how do we know that? what's a counterexample?`,
         color: "#D84848",
     },
     {
         title: "Setting students up for success.",
         body: `When a student struggles with math, it's usually because they haven't been handed the tools they need
-            to succeed. An intensive one-on-one approach allows us to tailor our instruction to the individual
+            to succeed. An intensive one-on-one approach allows Charlie to tailor his instruction to the individual
             needs of the student, in collaboration with their parents, their educational support team,
-            and the student themself. We have experience working with and advocating for autistic students,
+            and the student themself. He has experience working with and advocating for autistic students,
             LGBTQ+ students, and students with dyslexia, ADHD, anxiety, dyscalculia, and speech delays,
             as well as profoundly gifted and twice-exceptional students.`,
         color: "#E09149",
     },
     {
         title: "Results you can see.",
-        body: `We ask our students to prove their results, so we owe it to them to do the same.
-            During our intake process, we set concrete goals; throughout the time we spend together,
-            we assess the student's learning at regular intervals and track their progress towards their goals.
-            If what we're doing isn't working, we need to know about it, so that we can figure out what to change.`,
+        body: `Charlie asks his students to prove their results, so he owes it to them to do the same.
+            During the intake process, he works with parents and students to set concrete goals; throughout the time we spend together,
+            he assesses the student's learning at regular intervals and tracks their progress towards their goals.
+            If what he's doing isn't working, he needs to know about it, so that he can figure out what to change.`,
         color: "#87c154",
     },
     {
         title: "The joy of math.",
-        body: `We're in this business because we love math and we want to share that. If a student is miserable,
-            something has gone wrong. We work with students who struggle with math anxiety to rekindle
+        body: `Charlie is in this business because he loves math and he wants to share that. If a student is miserable,
+            something has gone wrong. Charlie works with students who struggle with math anxiety to rekindle
             their love of learning and show them the fun side of math. When a student asks for
-            "just five more minutes", we know we've succeeded as teachers.`,
+            "just five more minutes", he know he's succeeded as a teacher.`,
         color: "#1c75bc",
     },
 ]
@@ -57,9 +57,9 @@ function Home(props) {
                 <div>
                     <p className="splash-text">
                     Teegarden Tutoring is a small independent tutoring business, specializing in premier one-on-one K-12 math tutoring over Zoom for support and enrichment.
-                    Charlie works with students from a number of Bay Area schools, and accepts new students from any location.
+                    Charlie works with students from a number of schools in the Bay Area and New York, and accepts new students from any location.
                     Whether your student is looking for help in a challenging math class, coaching for an upcoming test or contest, 
-                    or to explore beyond the boundaries of what they're learning in school, we're here to help.</p>
+                    or to explore beyond the boundaries of what they're learning in school, he's here to help.</p>
 
                     {/* <p className="splash-text">If that sounds like a good fit for your student, click the button below to contact us for a free intake assessment and consultation!
                     </p> */}
@@ -71,7 +71,7 @@ function Home(props) {
             </section>
                 <Quizlet />
             <section>
-                <h1 style={{ textAlign: 'center' }}>At Teegarden Tutoring, we believe in:</h1>
+                <h1 style={{ textAlign: 'center' }}>Charlie is committed to:</h1>
                 <Cards cards={CARD_LIST} />
             </section>
         </main>

@@ -11,12 +11,12 @@ function About(props) {
             </figure>
             <p>
                 <b>Charlie Dever</b> is a mathematician with a background in teaching, research, and 
-                curriculum development. Charlie has a B.S. in mathematics from UT Austin, and previously taught 
+                curriculum development. He has a B.S. in mathematics from UT Austin, and previously taught 
                 and developed curriculum for the Art of Problem Solving, the Russian School of Mathematics, 
                 and Bay Area Learning Partners.
             </p><p>
                 With over a decade of K-12 math tutoring experience, Charlie has prepared students for tests including 
-                the SAT, ACT, ISEE, and PSAT. Charlie also has experience teaching programming, chemistry, Latin, and fencing!
+                the SAT, ACT, ISEE, and PSAT. He also has experience teaching programming, chemistry, Latin, and fencing!
             </p><p>
                 For a free intake assessment and consultation, click the button below.
             </p>
@@ -29,9 +29,9 @@ function About(props) {
             </p>
             <p className="splash-text">CURRICULUM</p>
             <p>
-            Teegarden Tutoring will work with you and your student to find the right curriculum materials, 
+            Charlie will work with you and your student to find the right curriculum materials, 
             whether that means the textbook their school uses or worksheets geared for their learning style. 
-            And if we can't find something "just right", Charlie will design custom materials for your student's needs.
+            And if he can't find something "just right", Charlie will design custom materials for your student's needs.
             </p>
             <p className="splash-text">INTERNATIONAL</p>
             <p>
@@ -40,8 +40,7 @@ function About(props) {
             </p>
             <p className="splash-text">VIRTUAL</p>
             <p>
-            At this moment, everyone is struggling to adjust to remote learning. Charlie has years of experience 
-            refining teaching techniques that work in the virtual classroom.
+            Charlie has years of experience refining teaching techniques that work in the virtual classroom. Ask to see a demonstration of his remote learning setup, or to discuss the best accommodations for your student's needs. 
             </p>
         </main>
     )
